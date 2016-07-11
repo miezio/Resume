@@ -1,0 +1,42 @@
+* {margin:0;padding:0;font-size:14px;font-family:Helvetica,"Microsoft YaHei","微软雅黑",STXihei,"华文细黑","YouYuan","幼圆",serif;color:#666}
+* a {text-decoration:none}
+body {background:rgb(63,82,99);overflow:hidden}
+h1,h2,h3,h4,h5,h6 {font-size:100%}
+#cv {margin:20px;overflow-y:scroll;width:45%;border:2px solid #333;background:#FFF;padding:10px 0}
+.line {margin-left:4em;position:relative;display:block;height:22px;line-height:22px}
+.line a {padding:3px 5px;transition:all .3s;margin-left:-5px}
+.line a:hover {box-shadow:inset 0 0 10px rgba(0,0,0,.8);transition:all .3s;background:#EEE\9}
+.line-num,.line-num-two {width:2em;text-align:right;display:block;position:absolute;left:-3.5em}
+.im {font-weight:bold;color:#333;margin:0 0.5em}
+.im2 {font-weight:bold;color:#333}
+.img {cursor:pointer}
+.img:hover {text-decoration:underline}
+.p1 {padding-left:2em}
+.p2 {padding-left:4em}
+.p3 {padding-left:6em}
+.p4 {padding-left:8em}
+.triangle-left {width:0;height:0;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:5px solid #DDD;position:absolute;left:-1em;top:8px;cursor:pointer}
+.triangle-down {width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid #DDD;position:absolute;left:-1em;top:8px;cursor:pointer}
+.real-left {border-left-color:#999}
+.real-down {border-top-color:#999}
+.box-shadow {box-shadow:0 0 10px rgba(160,160,160,.8);padding:0 0.5em;margin:0 0.5em;border:1px solid #DDD\9}
+.hide {display:none}
+.cursor {cursor:pointer}
+#projects-info {width:100%;position:absolute;margin:0 auto;top:-100%;background:rgba(0,0,0,.4);filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#40000000,endColorstr=#40000000);z-index:99}
+.exit {position:absolute;right:0;top:0;font-size:22px;background:white;width:40px;height:40px;line-height:40px;text-align:center;cursor:pointer}
+.all-skill {width:80%;height:50%;margin:12.5% 10%;background:#FFF;font-size:0;line-height:0}
+.col-4-1 {width:25%;display:inline-block;font-size:14px;line-height:22px}
+.title {font-size:36px;height:100px;line-height:100px;display:block;text-align:center}
+.progress-bar{display:block;text-align:left;height:22px;width:80%;margin:10%;border:2px solid #DDD}
+.progress-bar-color {background:#CCC;width:0;text-align:center;color:#CCC;overflow:hidden}
+.progress-num {height:22px;display:block;text-align:center;width:100%}
+#Interview {width:45%;position:absolute;left:100%;top:20px;background:#FFF;border:2px solid #333;padding:10px 0}
+#Interview h2 {font-size:24px;padding:60px 0 0 60px}
+#Interview dl {width:80%;margin:20px 10% 0;}
+#Interview dl dt,#Interview dl dd {display:inline-block;vertical-align:top}
+#Interview dl dt {width:19%}
+#Interview dl dd {width:79%}
+#Interview .qusetion {margin:0 0 0 20px}
+#Interview .qusetion li {cursor:pointer;margin-bottom:10px}
+#Interview pre {width:80%;height:420px;margin:50px 10% 0;background:#333;color:#FFF;border:2px solid #EEE;overflow-y:scroll;overflow-x: hidden;word-break:break-all;white-space:pre-wrap;font-size:18px;line-height:26px;padding:10px}
+.blink {color:#FFF}
